@@ -1,7 +1,7 @@
 version: '2'
 services:
   python:
-    image: kammana/uday:1
+    image: udaykanakaboina/myapp-api:1
     container_name: udayapp
     ports:
      - "8080:8080"

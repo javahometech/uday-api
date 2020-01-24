@@ -1,0 +1,44 @@
+{
+  "Reservations": [
+    {
+      "Groups": [
+        
+      ],
+      "Instances": [
+        {
+          "ImageId": "ami-43742144",
+          "InstanceId": "i-00b7fb83a362506ef",
+          "InstanceType": "c4.4xlarge"
+        }
+      ],
+      "OwnerId": "255825503071",
+      "ReservationId": "r-0616f016ca01882d6",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "instance1"
+        }
+      ]
+    },
+    {
+      "Groups": [
+        
+      ],
+      "Instances": [
+        {
+          "ImageId": "ami-53742144",
+          "InstanceId": "i-10b7fb83a362506ef",
+          "InstanceType": "c4.4xlarge"
+        }
+      ],
+      "OwnerId": "255825503071",
+      "ReservationId": "r-0616g016ca01882d6",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "instance2"
+        }
+      ]
+    }
+  ]
+}

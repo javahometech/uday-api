@@ -13,7 +13,6 @@ public class EC2Controller {
 		try {
 			return EC2JsonService.getInstances();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return "One Instance";
@@ -24,7 +23,6 @@ public class EC2Controller {
 		try {
 			return EC2JsonService.getInstance(id);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return "One Instance";

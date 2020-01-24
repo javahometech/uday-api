@@ -50,7 +50,7 @@ public class EC2JsonService {
 			}
 			
 		}
-		return "Instance Not found";
+		return "Instance Not found wiht Id - "+instanceId;
 	}
 
 }
